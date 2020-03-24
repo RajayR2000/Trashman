@@ -375,7 +375,7 @@ input[type='checkbox'] {
 
 .form-control-submit-button:hover {
 	background-color: transparent;
-	color: #00c9db;
+	color: #ffffff;
 }
 
 /* Form Success And Error Message Formatting */
@@ -917,7 +917,7 @@ input[type='checkbox'] {
 	width: 3.5rem;
 	height: 3.5rem;
 	border-radius: 50%;
-	background-color: #00c9db;
+	background-color: #49cf38;
 	text-align: center;
 	vertical-align: top;
 }
@@ -1319,7 +1319,7 @@ input[type='checkbox'] {
 
 .counter #counter .counter-info {
 	margin-bottom: 0;
-	color: #00c9db;
+	color: #ffffff;
 	font: 400 0.875rem/1.25rem "Open Sans", sans-serif;
 	vertical-align: middle;
 }
@@ -1392,7 +1392,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack .fa-stack-1x {
-    color: #262431;
+    color: #000000;
 	transition: all 0.2s ease;
 }
 
@@ -1406,7 +1406,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #00c9db;
+    color: #000000;
 }
 
 
@@ -1762,7 +1762,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #00c9db;
+		color: #000000;
 	}
 	/* end of navigation */
 

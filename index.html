@@ -261,7 +261,7 @@
                                     <div class="icon-cards-area">
                                         <div class="card">
                                             <div class="card-icon">
-                                                <i class="far fa-calendar-check"></i>
+                                                <i class="fas fa-rupee-sign"></i>
                                             </div>
                                             <div class="card-body">
                                                 <h4 class="card-title">Trash Rates</h4>
@@ -270,7 +270,7 @@
                                         </div>
                                         <div class="card">
                                             <div class="card-icon">
-                                                <i class="far fa-file-code"></i>
+                                                <i class="fas fa-hands-helping"></i>
                                             </div>
                                             <div class="card-body">
                                                 <h4 class="card-title">Convenience at your doorstep</h4>
@@ -279,7 +279,7 @@
                                         </div>
                                         <div class="card">
                                             <div class="card-icon">
-                                                <i class="fas fa-cube"></i>
+                                              <i class="fas fa-gift"></i>
                                             </div>
                                             <div class="card-body">
                                                 <h4 class="card-title">Reward system</h4>
@@ -288,7 +288,7 @@
                                         </div>
                                         <div class="card">
                                             <div class="card-icon">
-                                                <i class="far fa-bookmark"></i>
+                                                <i class="fas fa-location-arrow"></i>
                                             </div>
                                             <div class="card-body">
                                                 <h4 class="card-title">Location Based</h4>
@@ -560,19 +560,15 @@ impact and a healthy community to live in.</div>
                 <div class="col-lg-6 offset-lg-3">
 
                     <!-- Contact Form -->
-                    <form id="contactForm" data-toggle="validator" data-focus="false">
+                    <form action="mailto:admin@trashman.co.in" method="post" enctype="text/plain" data-toggle="validator" data-focus="false" >
                         <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
+                            <input type="text" name="name" class="form-control-input" id="cname" required>
                             <label class="label-control" for="cname">Name</label>
                             <div class="help-block with-errors"></div>
                         </div>
+
                         <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
-                            <label class="label-control" for="cemail">Email</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                            <textarea class="form-control-textarea" name="text" id="cmessage" required></textarea>
                             <label class="label-control" for="cmessage">Your message</label>
                             <div class="help-block with-errors"></div>
                         </div>
@@ -586,6 +582,7 @@ impact and a healthy community to live in.</div>
                         <div class="form-message">
                             <div id="cmsgSubmit" class="h3 text-center hidden"></div>
                         </div>
+
                     </form>
                     <!-- end of contact form -->
 
