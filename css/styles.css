@@ -628,7 +628,7 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #000000;
+	background-color: #4fce5d;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	font: 700 0.75rem/2rem "Montserrat", sans-serif;
 	transition: all 0.2s;
@@ -1354,7 +1354,7 @@ input[type='checkbox'] {
 .form .list-unstyled .fab {
 	margin-right: 0.5rem;
 	font-size: 0.875rem;
-	color: #00c9db;
+	color: #4fce5d;
 }
 
 .form .list-unstyled .fa-phone {
@@ -1441,13 +1441,13 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #00c9db url("../images/up-arrow.png") no-repeat center 47%;
+	background: #4fce5d url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-	background-color: #36edfd;
+	background-color: #4fce5d;
 }
 
 
@@ -1550,7 +1550,8 @@ a:hover.back-to-top {
 	.navbar-custom {
 		padding: 2.125rem 1.5rem 2.125rem 2rem;
 		box-shadow: none;
-        background: transparent;
+        background: #4fce5d;
+        
 	}
 
 	.navbar-custom .navbar-brand.logo-text {
@@ -1558,7 +1559,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .navbar-nav {
-		margin-top: 0;
+		margin-top: 0rem;
 	}
 
 	.navbar-custom .nav-item .nav-link {
