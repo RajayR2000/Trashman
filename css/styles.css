@@ -628,7 +628,7 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #ffffff;
+	background-color: #000000;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	font: 700 0.75rem/2rem "Montserrat", sans-serif;
 	transition: all 0.2s;
@@ -668,7 +668,7 @@ input[type='checkbox'] {
 .navbar-custom .dropdown:hover > .dropdown-menu {
 	display: block; /* this makes the dropdown menu stay open while hovering it */
 	min-width: auto;
-	animation: fadeDropdown 0.2s; /* required for the fade animation */
+	animation: fadeDropdown 0.2s;  /* required for the fade animation */
 }
 
 @keyframes fadeDropdown {
@@ -725,7 +725,7 @@ input[type='checkbox'] {
 
 .navbar-custom .navbar-toggler {
 	border: none;
-	color: #fff;
+	color: #ffffff;
 	font-size: 2rem;
 }
 
@@ -920,7 +920,7 @@ input[type='checkbox'] {
 	width: 3.5rem;
 	height: 3.5rem;
 	border-radius: 50%;
-	background-color: #49cf38;
+	background-color: #4fce5d;
 	text-align: center;
 	vertical-align: top;
 }
